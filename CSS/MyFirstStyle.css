@@ -10,6 +10,13 @@
     --color5: #E76F51;
 }
 
+img {
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
 body {
     background-color: #e2e2d1;
 }
