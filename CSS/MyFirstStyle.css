@@ -1,75 +1,83 @@
-    * {
-        box-sizing: border-box;
-    }
+* {
+    box-sizing: border-box;
+}
 
-    body {
-        background-color: #e2e2d1;
-    }
+:root {
+    --color1: #264653;
+    --color2: #2A9D8F;
+    --color3: #E9C46A;
+    --color4: #F4A261;
+    --color5: #E76F51;
+}
 
-    header {
-        color: #AAEE00;
-        text-align: center;
-    }
+body {
+    background-color: #e2e2d1;
+}
 
-    p {
-        background-color: #ffff;
-        font-family: fantasy;
-        padding: 10px 10px;
-    }
+header {
+    color: #AAEE00;
+    text-align: center;
+}
 
-    table {
-        border: 2px solid;
-        border-collapse: collapse;
-    }
+p {
+    background-color: #ffff;
+    font-family: fantasy;
+    padding: 10px 10px;
+}
 
-    th,
-    td {
-        border: 1px solid;
-    }
+table {
+    border: 2px solid;
+    border-collapse: collapse;
+}
 
-    td {
-        text-align: right;
-    }
+th,
+td {
+    border: 1px solid;
+}
 
-    a {
-        color: rgb(36, 212, 83);
+td {
+    text-align: right;
+}
 
-    }
+a {
+    color: rgb(36, 212, 83);
 
-    a:hover {
-        color: aqua;
-        font-size: xx-large;
-    }
+}
 
-    nav {
-        text-align: center;
-        font-family: sans-serif;
-        font-weight: bold;
-        background-color: chocolate;
-        padding-block: 1rem;
-    }
+a:hover {
+    color: aqua;
+    font-size: xx-large;
+}
 
-    nav ul {
-        margin: 0;
-        padding: 0;
-    }
+nav {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: chocolate;
+    padding-block: 1rem;
+}
 
-    nav li {
-        display: inline;
-        margin: 0;
-        padding: 0;
-    }
+nav ul {
+    margin: 0;
+    padding: 0;
+}
 
-    nav a {
-        text-decoration: none;
-        color: white;
-        padding: 1rem;
-    }
+nav li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
 
-    nav a:hover {
-        background-color: coral;
-    }
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
 
-    nav a.active {
-        background-color: indianred;
-    }
+nav a:hover {
+    background-color: coral;
+}
+
+nav a.active {
+    background-color: indianred;
+}
